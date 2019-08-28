@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+<!-- Navigation Bar -->
+<div class="navbar justify-content-center" style="background-color: black">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item" style="padding-right: 15px">
+                <button id="Home" class="btn btn-primary" onclick="HomeButtonClick()">Home</button>
+            </li>
+    
+            <li class="nav-item" style="padding-right: 15px">
+                <button id="About" class="btn btn-primary" onclick="AboutButtonClick()">About Me</button>
+            </li>
+    
+            <li class="nav-item" style="padding-right: 15px">
+                <button id="Shisha" class="btn btn-primary dropdown-toggle" data-toggle = "dropdown">Shisha Reviews</button>
+                <div class="dropdown-menu">
+                    <button id="London" class="btn btn-danger" onclick="LondonButtonClick()">London</button>
+                    <button id="Portsmouth" class="btn btn-danger" onclick="PortsmouthButtonClick()">Portsmouth</button>
+                    <button id="AlAin" class="btn btn-danger" onclick="AlAinButtonClick()">Al Ain</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<!--About Me Album-->
+<div class="album py-4 bg-dark">
+    <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="images/Hamza.jpg" class="card-img">
+            </div>
+            
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h1 class="card-title" style="font-style: italic;">Hamza Sheikh</h1>
+                    <div class="card-text" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                        <h3 class="card-text"><strong>Age: </strong> 22</h3>
+                        <h3 class="card-text"><strong>Email: </strong> hrsheikh05@gmail.com</h3>
+                        <h3 class="card-text"><strong>Location: </strong> London</h3>
+                        <h3 class="card-text"><strong>Education: </strong> University of Portsmouth</h3>
+                        <h3 class="card-text"><strong>Job Title: </strong> Junior Front End Engineer</h3>
+                        <h3 class="card-text"><strong>3 facts about me:- </strong></h3>
+                            <ol>
+                                <li>Learn't Front end development within 3 weeks</li>
+                                <li>Walked 13 miles in a day</li>
+                                <li>Went on the world's fastest roller Coaster</li>
+                            </ol>
+                            <h3 class="card-text"><strong>What am i currently working on: </strong></h3><p>I am currently working on enhancing my skills on JQuery and React.</p>
+                            <h3 class="card-text"><strong>What am i looking for: </strong></h3><p>I am looking for a place where my skills can be enhanced and be challenged. I'm always up for learning new skills and would take part in learning actively.</p>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Javascript-->
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
